@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import Dashboard from '@/components/Dashboard';
 import Settings from '@/components/Settings';
-import { MicVoice, BarChart3, Settings2 } from 'lucide-react';
+import { Mic, BarChart3, Settings2 } from 'lucide-react';
 import Header from '@/components/Header';
 
 const Index = () => {
@@ -18,7 +18,7 @@ const Index = () => {
           <Tabs defaultValue="interview" className="w-full">
             <TabsList className="grid w-full grid-cols-3 mb-8">
               <TabsTrigger value="interview" className="flex items-center gap-2">
-                <MicVoice className="h-4 w-4" />
+                <Mic className="h-4 w-4" />
                 <span className="hidden sm:inline">Interview</span>
               </TabsTrigger>
               <TabsTrigger value="dashboard" className="flex items-center gap-2">
